@@ -40,3 +40,4 @@ Some things work but have some mayor flaws in them still.
 * Settings
 * Status
 * Help
+* Play
