@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Plex WebUI Light",
+  "version": "0.2.0",
+  "description": "Changes the Plex Media Servers Web to a more lighter experience.",
+  "author": "Henrik Ammer",
+  "homepage_url": "http://theammers.se",
+
+  "icons": {
+    "16": "assets/images/icon-16.png",
+    "48": "assets/images/icon-48.png",
+    "128": "assets/images/icon-128.png"
+  },
+
+  "web_accessible_resources": [
+    "assets/plexwebuilight_ha.css"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://app.plex.tv/web/app*"],
+      "js": ["assets/plexwebuilight_ha.js"],
+      "run_at": "document_end"
+    }
+  ]
+
+}
