@@ -193,7 +193,8 @@ a:hover .DisclosureArrow-default-298Tb, button:hover .DisclosureArrow-default-29
 .media-poster-overlay, .media-poster-top-overlay{
 	background-image: linear-gradient(to bottom,transparent 20%,#f5f5f5 100%);
 }
-.media-poster-btn{
+.media-poster-btn,
+.media-poster-overlay-icon{
 	color: #424242;
 }
 .btn-metadata-link:focus, .btn-metadata-link:hover{
