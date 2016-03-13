@@ -25,8 +25,13 @@ The list contains the parts that are done to the best of my knowledge.
 
 * Channels
 * Dropdowns
+* Help
 * Home
+* Logs
+* Messages
+* Modals
 * Sections
+* Settings
 * Status
 * Playlists
 
@@ -34,15 +39,9 @@ The list contains the parts that are done to the best of my knowledge.
 
 Needs some fixer-upers here and there.
 
-* Help
-* Messages
-* Modals
-* Settings
-
 ## Remaining
 
 * Play
-* Logs
 
 ## Disclaimer
 
