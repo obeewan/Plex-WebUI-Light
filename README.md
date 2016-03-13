@@ -23,23 +23,26 @@ At the current state you need to use it as an *uncompressed extension in Chrome*
 
 The list contains the parts that are done to the best of my knowledge.
 
+* Channels
+* Dropdowns
 * Home
 * Sections
-* Dropdowns
+* Status
+* Playlists
 
 ## Partially fixed
 
 Needs some fixer-upers here and there.
 
-* Channels
+* Help
 * Modals
-* Playlists
+* Messages
+* Settings
 
 ## Remaining
 
-Some things work but have some mayor flaws in them still.
-
-* Settings
-* Status
-* Help
 * Play
+
+## Disclaimer
+
+Plex is a registered trademark, this extension is not affiliated with Plex.
