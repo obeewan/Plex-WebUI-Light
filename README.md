@@ -11,7 +11,6 @@ Let's just say I got a bit bored of the darkness.
 ### Requirements
 
 Tested on Plex Media Server 0.9.15.6 with Chrome 48.0.2564.116+ and Opera 35.0.2066.92+ on Windows 10.
-You also need [Open Sans Light](https://www.google.com/fonts#QuickUsePlace:quickUse) installed on your machine since it isn't used of the bat with the servers and not currently included in my build either.
 
 I currently don't own a Plex Pass so specific sections for Plex Pass might look weird.
 
