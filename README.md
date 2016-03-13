@@ -35,13 +35,14 @@ The list contains the parts that are done to the best of my knowledge.
 Needs some fixer-upers here and there.
 
 * Help
-* Modals
 * Messages
+* Modals
 * Settings
 
 ## Remaining
 
 * Play
+* Logs
 
 ## Disclaimer
 
