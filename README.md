@@ -1,8 +1,8 @@
 # Plex WebUI Light
 
-Changes the Plex Media Servers Web UI to a more lighter experience with an Chrome extension.
+Changes the Plex Media Servers Web UI to a more lighter experience with an Chrome/Opera extension.
 
-It uses a small Javascript to inject the CSS file into the header because of the way Chrome handles CSS as content scripts. Otherwise all rules had to have ``!important`` which isn't very usable in this scenario.
+It uses a small Javascript to inject the CSS file into the header because of the way Chrome/Opera handles CSS as content scripts. Otherwise all rules had to have ``!important`` which isn't very usable in this scenario.
 
 Let's just say I got a bit bored of the darkness.
 
@@ -10,14 +10,14 @@ Let's just say I got a bit bored of the darkness.
 
 ### Requirements
 
-Tested on Plex Media Server 0.9.15.6 with Chrome 48.0.2564.116+ on Windows 10.
+Tested on Plex Media Server 0.9.15.6 with Chrome 48.0.2564.116+ and Opera 35.0.2066.92+ on Windows 10.
 You also need [Open Sans Light](https://www.google.com/fonts#QuickUsePlace:quickUse) installed on your machine since it isn't used of the bat with the servers and not currently included in my build either.
 
 I currently don't own a Plex Pass so specific sections for Plex Pass might look weird.
 
 ### Installation
 
-At the current state you need to use it as an *uncompressed extension in Chrome*. If you don't know how, this extension is probably not for you just yet.
+At the current state you need to use it as an *uncompressed extension in Chrome or Opera*. If you don't know how, this extension is probably not for you just yet.
 
 ## Fixed
 
