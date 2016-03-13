@@ -18,7 +18,7 @@ I currently don't own a Plex Pass so specific sections for Plex Pass might look 
 
 At the current state you need to use it as an *uncompressed extension in Chrome or Opera*. If you don't know how, this extension is probably not for you just yet.
 
-## Fixed
+## State of the extension
 
 The list contains the parts that are done to the best of my knowledge.
 
@@ -29,18 +29,15 @@ The list contains the parts that are done to the best of my knowledge.
 * Logs
 * Messages
 * Modals
+* Play
 * Sections
 * Settings
 * Status
 * Playlists
 
-## Partially fixed
+### Needing attention
 
-Needs some fixer-upers here and there.
-
-## Remaining
-
-* Play
+Mostly general check for consistency (which it probably is not at the moment).
 
 ## Disclaimer
 

@@ -26,7 +26,7 @@ select{
 	color: #757575;
 }
 .help-block{
-	color: #454545;
+	color: #424242;
 }
 .queue-help-container .row .queue-email.disabled{
   background-color: #9e9e9e;
@@ -463,7 +463,7 @@ a.dropdown-poster-toggle:focus .media-poster, a.dropdown-poster-toggle:hover .me
 	color: #212121;
 }
 .metadata-tag-list>a:not(.dropdown-toggle):focus, .metadata-tag-list>a:not(.dropdown-toggle):hover, .metadata-tags>a:not(.dropdown-toggle):focus, .metadata-tags>a:not(.dropdown-toggle):hover{
-	color: #454545;
+	color: #424242;
 }
 .metadata-tag-list>a:not(.dropdown-toggle), .metadata-tags>a:not(.dropdown-toggle){
 	color: #212121;
@@ -521,7 +521,7 @@ li.card-collapsed:last-child, li:last-child>.card-collapsed{
   color: #616161;
 }
 .card-2-col-item h4{
-  color: #454545;
+  color: #424242;
 }
 /* 	Alerts
 ------------------------------------------------------------------------------*/
@@ -546,4 +546,40 @@ li.card-collapsed:last-child, li:last-child>.card-collapsed{
 }
 .dark-scrollbar::-webkit-scrollbar-track{
 	background-color: transparent;
+}
+
+/* 	Player
+------------------------------------------------------------------------------*/
+.alert-player, .video-controls-overlay{
+	background-color: #fff;
+	color: #616161;
+}
+.video-controls-overlay{
+	background-color: #fff;
+}
+.video-controls-overlay-top>.video-controls-left,
+.video-controls-left .btn-link, .video-controls-right .btn-link,
+.video-controls .seek-bar-container>.player-duration, .video-controls .seek-bar-container>.player-position{
+	color: #424242;
+}
+.video-controls-left .btn-link:focus, .video-controls-left .btn-link:hover, .video-controls-right .btn-link:focus, .video-controls-right .btn-link:hover{
+	color: #9e9e9e;
+}
+.video-controls .player-slider-track{
+	background-color: hsla(0,0%,0%,.15);
+}
+.video-controls .player-slider-track .player-slider-buffer{
+	background-color: hsla(0,0%,0%,.1);
+}
+.player-slider-thumb{
+	background-color: #9e9e9e;
+}
+.player-slider-thumb:hover{
+	background-color: #424242;
+}
+.video-controls-left .dropdown.open>.btn-link, .video-controls-left .dropup.open>.btn-link, .video-controls-right .dropdown.open>.btn-link, .video-controls-right .dropup.open>.btn-link{
+	color: #cc7b19;
+}
+.player-scrub-preview-thumbnail{
+	border-color: #fff;
 }
