@@ -3,7 +3,7 @@
   "update_url": "https://github.com/obeewan/Plex-WebUI-Light/blob/extension_test/extension/updates.xml?raw=true",
 
   "name": "Plex WebUI Light",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Changes the Plex Media Servers Web to a more lighter experience.",
   "author": "Henrik Ammer",
   "homepage_url": "https://github.com/obeewan/Plex-WebUI-Light",
