@@ -528,6 +528,9 @@ li.card-collapsed:last-child, li:last-child>.card-collapsed{
 .card-2-col-item h4{
   color: #424242;
 }
+.media-progress .media-progress-track{
+	background-color: rgba(255,255,255,.8);
+}
 /* 	Alerts
 ------------------------------------------------------------------------------*/
 .alert{

@@ -20,12 +20,16 @@ At the current state you need to use it as an *uncompressed extension in Chrome 
 
 ## Why not use Stylish instead?
 
-Why not [Stylish](https://userstyles.org/) rules you ask? Well, let's just say I felt more comfortable with this approach and it's easier to maintain in my book. 
+Why not [Stylish][stylish] rules you ask? Well, let's just say I felt more comfortable with this approach and it's easier to maintain in my book. 
 
 ## License
 
-Released under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html).
+Released under the [Apache 2.0 license][apachelicense].
 
 ## Disclaimer
 
-Plex is a registered trademark, this extension is not affiliated with Plex.
+[Plex][plex] is a registered trademark, this extension is not affiliated with Plex.
+
+[stylish]: https://userstyles.org/
+[apachelicense]: http://www.apache.org/licenses/LICENSE-2.0.html
+[plex]: https://plex.tv
