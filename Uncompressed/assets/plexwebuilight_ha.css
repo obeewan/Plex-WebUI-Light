@@ -62,7 +62,7 @@ a .glyphicon{
 	transition: all .2s;
 }
 .Link-default-12wtj{
-	color: rgba(0,0,0,.7);
+  color: rgba(0,0,0,.7);
 }
 .Link-link-hBAL9:hover{
 	color: #212121;
@@ -187,15 +187,38 @@ a:hover .DisclosureArrow-default-298Tb, button:hover .DisclosureArrow-default-29
 .poster-item .media-heading.secondary{
 	color: #757575;
 }
-.media-poster, .media-poster-fade, .user-poster{
+.media-poster, .media-poster-fade, .user-poster,.MetadataPosterCard-poster-YXgSi{
 	background: #f5f5f5;
 	box-shadow: none;
 }
 .force-hover .media-poster-container .media-poster, .force-hover .media-poster-container .media-poster-fade, .media-poster-container:focus .media-poster, .media-poster-container:focus .media-poster-fade, .media-poster-container:hover .media-poster, .media-poster-container:hover .media-poster-fade{
-	box-shadow: inset 0 0 0 2px #cc7b19
+	box-shadow: inset 0 0 0 2px #cc7b19;
 }
-.media-poster-overlay, .media-poster-top-overlay{
-	background-image: linear-gradient(to bottom,transparent 20%,#f5f5f5 100%);
+.MetadataPosterCardOverlay-overlay-36np0.MetadataPosterCardOverlay-hasActiveSelection-2bjZH .MetadataPosterCardOverlay-background-3m9pn, .MetadataPosterCardOverlay-overlay-36np0.MetadataPosterCardOverlay-isModifierKeyPressed-3zbV- .MetadataPosterCardOverlay-background-3m9pn{
+	background-color: rgba(245,245,245,.4);
+}
+.MetadataPosterCardOverlay-background-3m9pn{
+	background: none;
+}
+.MetadataPosterCardOverlay-badge-1G8Az,
+.MetadataPosterCardOverlay-selectedCircle-ZqGaz{
+	color: #f5f5f5;
+	box-shadow: none;
+}
+.media-poster-overlay, .media-poster-top-overlay,
+.MetadataPosterCardOverlay-isActionsMenuOpen-1s8J9 .MetadataPosterCardOverlay-background-3m9pn, .MetadataPosterCardOverlay-overlay-36np0:hover .MetadataPosterCardOverlay-background-3m9pn{
+  background-image: linear-gradient(to bottom,transparent 20%,#f5f5f5 100%);
+}
+.MetadataPosterCardOverlay-playButtonCircle-1hOLI{
+	border-color: transparent;
+	background-color: #f5f5f5;
+}
+.MetadataPosterCardOverlay-centerCircle-29FEU{
+	color: inherit;
+}
+.MetadataPosterCardOverlay-selectCircle-3gMC6{
+	border-color: transparent;
+	background-color: #f5f5f5;
 }
 .media-poster-btn,
 .media-poster-overlay-icon{
@@ -244,7 +267,31 @@ a.dropdown-poster-toggle:focus .media-poster, a.dropdown-poster-toggle:hover .me
 .unwatched-icon{
 	border-radius: 0;
 }
-
+/* 	Dashboard
+------------------------------------------------------------------------------*/
+.DashboardHeader-dashboardHeader-3luSX{
+	color: #212121;
+}
+.PageHeader-pageHeader-3GO7n{
+	background-color: rgba(0,0,0,.0125);
+	transition: all .5s;
+}
+.DashboardHeader-separator-1c7KN{
+	color: #9e9e9e;
+}
+.Slider-track-2AXv0{
+	background-color: #bdbdbd;
+}
+.Slider-thumb-TqUXp{
+	background-color: #9e9e9e;
+}
+.PosterSizeSlider-sliderIcon-2G2gc{
+	color: #9e9e9e;
+}
+.MultiSelectHeader-metadataListHeader-1D5WC{
+	box-shadow: none;
+	background-color: rgba(249, 190, 3, .2);
+}
 /* 	Breadcrumbs
 ------------------------------------------------------------------------------*/
 .breadcrumb-bar a{
@@ -271,10 +318,10 @@ a.dropdown-poster-toggle:focus .media-poster, a.dropdown-poster-toggle:hover .me
 
 /* 	Menus
 ------------------------------------------------------------------------------*/
-.MenuContainer-menu-2HyzK{
+.MenuContainer-menu-2HyzK,.MenuContainer-menu-27j2V,.SearchResults-container-2DzmV{
 	background-color: #f5f5f5;
 }
-.MenuContainer-menu-2HyzK,.ServerMenuItem-serverMenuItem-11WAM:hover{
+.MenuContainer-menu-2HyzK,.ServerMenuItem-serverMenuItem-11WAM:hover,.MenuContainer-menu-27j2V,.SearchResults-container-2DzmV{
 	border-radius: 0;
 }
 .MenuItem-menuItem-2lzME:hover{
@@ -309,8 +356,13 @@ a.dropdown-poster-toggle:focus .media-poster, a.dropdown-poster-toggle:hover .me
 
 /* 	Forms
 ------------------------------------------------------------------------------*/
-.form-control-search{
+.form-control-search,
+.SearchInput-container-3MOYD{
 	background-color: #f5f5f5;
+}
+.SearchInput-container-3MOYD,
+.SearchInput-searchInput-2BNxL{
+	color: #424242;
 }
 .form-control{
 	background: #eee;
