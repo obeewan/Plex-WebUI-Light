@@ -61,10 +61,10 @@ select{
 a .glyphicon{
 	transition: all .2s;
 }
-.Link-default-12wtj{
+[class*="Link-default-"]{
   color: rgba(0,0,0,.7);
 }
-.Link-link-hBAL9:hover{
+[class*="Link-link-"]:hover{
 	color: #212121;
 }
 .nav-bar-nav>li>a .plex-pass-label{
@@ -78,56 +78,58 @@ a .glyphicon{
 
 /* 	ServerMenu
 ------------------------------------------------------------------------------*/
-.ServerMenuItem-serverMenuFriendlyName-3NvWe,
-.ServerMenuButton-serverMenuButton-u9Vd6
+[class*="ServerMenuItem-serverMenuFriendlyName-"],
+[class*="ServerMenuButton-serverMenuButton-"]
 {
 	font-family: 'Open Sans Light','Helvetica Neue',Helvetica,Arial,sans-serif;
 	letter-spacing: 1px;
 	color: #212121;
 }
-.ServerMenuButton-serverMenuButton-u9Vd6{
+[class*="ServerMenuButton-serverMenuButton-"]{
 	background-color: rgba(255,255,255,.35);
 	color: #cc7b19;
 }
-.ServerMenuButton-serverMenuButton-u9Vd6:hover{
+[class*="ServerMenuButton-serverMenuButton-"]:hover{
 	background-color: rgba(255,255,255,.75);
 }
-.ServerMenuButton-serverMenuArrow-2-4ic{
+[class*="ServerMenuButton-serverMenuArrow-2-"]{
 	border-color: #cc7b19;
 }
-a:hover .DisclosureArrow-default-298Tb, button:hover .DisclosureArrow-default-298Tb{
+a:hover [class*="DisclosureArrow-default-"], button:hover [class*="DisclosureArrow-default-"]{
 	border-color: #212121;
 }
-.ServerMenuIcon-secureIcon--aqxx,
+[class*="ServerMenuIcon-secureIcon-"],
 .check-for-updates-container>.install-info-label .success-icon{
 	color: #3a2;
 }
-.ServerMenuItem-serverMenuStatus-3VazK{
+[class*="ServerMenuItem-serverMenuStatus-"]{
 	color: hsla(0,0%,0%,.3);
 }
 
 /* 	Sidebar
 ------------------------------------------------------------------------------*/
-.SidebarList-sidebarListHeader-2PjMw,
-.dropdown-header
+[class^="SidebarList-sidebarListHeader-"],
+[class^="SidebarServerLibraries-librariesTitle-"],
+.dropdown-header,
+[class^="QuickSearchHub-hubTitle-"]
 {
 	color: rgba(0,0,0,.6);
 	font-family: 'Open Sans Light','Helvetica Neue',Helvetica,Arial,sans-serif;
 	letter-spacing: 1px;
 }
-.Sidebar-sidebar-4nJ9g{
+[class^="Sidebar-sidebar-"]{
 	background-color: rgba(0,0,0,.05);
 }
-.SidebarListItem-sidebarListItem-1xFKd{
+[class^="SidebarListItem-sidebarListItem-"]{
 	border-radius: 0;
 }
-.SidebarListItem-sidebarListItem-1xFKd:hover {
+[class^="SidebarListItem-sidebarListItem-"]:hover {
 	background-color: rgba(255,255,255,.45);
 }
-.scrollable-scrollable-xB43l{
+[class*="scrollable-scrollable-"]{
 	padding-right: 0;
 }
-.SidebarLink-sidebarLinkSpinner-37fxF{
+[class*="SidebarLink-sidebarLinkSpinner-"]{
 	border-top-color: #212121;
 	border-left-color: #212121;
 }
@@ -187,41 +189,48 @@ a:hover .DisclosureArrow-default-298Tb, button:hover .DisclosureArrow-default-29
 .poster-item .media-heading.secondary{
 	color: #757575;
 }
-.media-poster, .media-poster-fade, .user-poster,.MetadataPosterCard-poster-YXgSi{
+.media-poster, .media-poster-fade, .user-poster,[class*="MetadataPosterCard-poster-"],[class*="MetadataPosterCell-continueWatchingTitleContainer-"]{
 	background: #f5f5f5;
 	box-shadow: none;
+}
+[class*="MetadataPosterCell-continueWatchingTitleContainer-"]{
+	padding: 10px 0;
 }
 .force-hover .media-poster-container .media-poster, .force-hover .media-poster-container .media-poster-fade, .media-poster-container:focus .media-poster, .media-poster-container:focus .media-poster-fade, .media-poster-container:hover .media-poster, .media-poster-container:hover .media-poster-fade{
 	box-shadow: inset 0 0 0 2px #cc7b19;
 }
-.MetadataPosterCardOverlay-overlay-36np0.MetadataPosterCardOverlay-hasActiveSelection-2bjZH .MetadataPosterCardOverlay-background-3m9pn, .MetadataPosterCardOverlay-overlay-36np0.MetadataPosterCardOverlay-isModifierKeyPressed-3zbV- .MetadataPosterCardOverlay-background-3m9pn{
+[class^="MetadataPosterCardOverlay-overlay-"][class*="MetadataPosterCardOverlay-hasActiveSelection-"] [class^="MetadataPosterCardOverlay-background-"], [class^="MetadataPosterCardOverlay-overlay-"][class*="MetadataPosterCardOverlay-isModifierKeyPressed-"] [class^="MetadataPosterCardOverlay-background-"]{
 	background-color: rgba(245,245,245,.4);
 }
-.MetadataPosterCardOverlay-background-3m9pn{
+[class^="MetadataPosterCardOverlay-background-"]{
 	background: none;
 }
-.MetadataPosterCardOverlay-badge-1G8Az,
-.MetadataPosterCardOverlay-selectedCircle-ZqGaz{
+[class*="MetadataPosterCardOverlay-badge-"],
+[class^="MetadataPosterCardOverlay-selectedCircle-"]{
 	color: #f5f5f5;
 	box-shadow: none;
 }
 .media-poster-overlay, .media-poster-top-overlay,
-.MetadataPosterCardOverlay-isActionsMenuOpen-1s8J9 .MetadataPosterCardOverlay-background-3m9pn, .MetadataPosterCardOverlay-overlay-36np0:hover .MetadataPosterCardOverlay-background-3m9pn{
+[class*="MetadataPosterCardOverlay-isActionsMenuOpen-"] [class^="MetadataPosterCardOverlay-background-"], [class^="MetadataPosterCardOverlay-overlay-"]:hover [class^="MetadataPosterCardOverlay-background-"]{
   background-image: linear-gradient(to bottom,transparent 20%,#f5f5f5 100%);
 }
-.MetadataPosterCardOverlay-playButtonCircle-1hOLI{
+[class*="MetadataPosterCardOverlay-playButtonCircle-"]{
 	border-color: transparent;
 	background-color: #f5f5f5;
 }
-.MetadataPosterCardOverlay-centerCircle-29FEU{
+[class*="MetadataPosterCardOverlay-centerCircle-"]{
 	color: inherit;
+	background-color: #f5f5f5;
 }
-.MetadataPosterCardOverlay-selectCircle-3gMC6{
+[class*="MetadataPosterCardOverlay-selectCircle-"]{
 	border-color: transparent;
 	background-color: #f5f5f5;
 }
 .media-poster-btn,
-.media-poster-overlay-icon{
+.media-poster-overlay-icon,
+[class*="MetadataPosterTitle-"],
+[class*="MetadataPosterTitle-isSecondary"] a,
+[class*="QuickSearchTitle-isSecondary"] a{
 	color: #424242;
 }
 .btn-metadata-link:focus, .btn-metadata-link:hover{
@@ -269,26 +278,27 @@ a.dropdown-poster-toggle:focus .media-poster, a.dropdown-poster-toggle:hover .me
 }
 /* 	Dashboard
 ------------------------------------------------------------------------------*/
-.DashboardHeader-dashboardHeader-3luSX{
+[class*="DashboardHeader-dashboardHeader-"]{
 	color: #212121;
 }
-.PageHeader-pageHeader-3GO7n{
+[class^="PageHeader-pageHeader"]{
 	background-color: rgba(0,0,0,.0125);
+	color: #212121;
 	transition: all .5s;
 }
-.DashboardHeader-separator-1c7KN{
+[class^="DashboardHeader-separator"]{
 	color: #9e9e9e;
 }
-.Slider-track-2AXv0{
+[class^="Slider-track"]{
 	background-color: #bdbdbd;
 }
-.Slider-thumb-TqUXp{
+[class^="Slider-thumb-"]{
 	background-color: #9e9e9e;
 }
-.PosterSizeSlider-sliderIcon-2G2gc{
+[class*="PosterSizeSlider-sliderIcon-"]{
 	color: #9e9e9e;
 }
-.MultiSelectHeader-metadataListHeader-1D5WC{
+[class*="MultiSelectHeader-metadataListHeader-"]{
 	box-shadow: none;
 	background-color: rgba(249, 190, 3, .2);
 }
@@ -318,14 +328,37 @@ a.dropdown-poster-toggle:focus .media-poster, a.dropdown-poster-toggle:hover .me
 
 /* 	Menus
 ------------------------------------------------------------------------------*/
-.MenuContainer-menu-2HyzK,.MenuContainer-menu-27j2V,.SearchResults-container-2DzmV{
+[class*="MenuContainer-menu-"],[class*="QuickSearchResults-container-"]{
 	background-color: #f5f5f5;
 }
-.MenuContainer-menu-2HyzK,.ServerMenuItem-serverMenuItem-11WAM:hover,.MenuContainer-menu-27j2V,.SearchResults-container-2DzmV{
+[class*="MenuContainer-menu-"],[class*="ServerMenuItem-serverMenuItem-"]:hover,[class*="QuickSearchResults-container-"]{
 	border-radius: 0;
 }
-.MenuItem-menuItem-2lzME:hover{
+[class*="MenuItem-menuItem-"]:hover{
 	background-color: #fff;
+}
+[class*="SearchCard-card"]{
+	background-color: #424242;
+}
+[class*="QuickSearchResult-button-"]{
+	border-radius: 0;
+}
+[class*="QuickSearchResult-button-"]:hover,
+[class*="QuickSearchResults-placeholderSelected-"]:hover{
+	background-color: rgba(0,0,0,.1);
+}
+[class*="QuickSearchResult-button-"]:hover [class*="QuickSearchResult-title"]{
+	color: #212121;
+}
+[class^="Anagram-anagram-"]{
+	color: #fff;
+}
+[class*="QuickSearchResults-placeholderSelected-"]{
+	background: transparent;
+	border-radius: 0;
+}
+[class*="QuickSearchTitle-title-"]{
+	color: inherit;
 }
 
 /* 	Tooltips
@@ -357,11 +390,11 @@ a.dropdown-poster-toggle:focus .media-poster, a.dropdown-poster-toggle:hover .me
 /* 	Forms
 ------------------------------------------------------------------------------*/
 .form-control-search,
-.SearchInput-container-3MOYD{
+[class^="QuickSearchInput-container-"]{
 	background-color: #f5f5f5;
 }
-.SearchInput-container-3MOYD,
-.SearchInput-searchInput-2BNxL{
+[class^="QuickSearchInput-container-"],
+[class^="QuickSearchInput-searchInput-"]{
 	color: #424242;
 }
 .form-control{
