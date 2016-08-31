@@ -12,7 +12,7 @@ Let's just say I got a bit bored of the darkness.
 
 ### Requirements
 
-Tested on Plex Media Server 0.9.15.6 with Chrome 48.0.2564.116+ and Opera 35.0.2066.92+ on Windows 10.
+Tested on Plex Media Server 0.9.15.6+ with Chrome 48.0.2564.116+ and Opera 35.0.2066.92+ on Windows 10.
 
 ### Installation
 
