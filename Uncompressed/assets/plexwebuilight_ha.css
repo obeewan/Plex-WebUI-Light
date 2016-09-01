@@ -302,6 +302,9 @@ a.dropdown-poster-toggle:focus .media-poster, a.dropdown-poster-toggle:hover .me
 	box-shadow: none;
 	background-color: rgba(249, 190, 3, .2);
 }
+[class*="MultiSelectPageHeader-multiSelectPageHeader-"]{
+	background-color: rgba(0,0,0,.0125);
+}
 /* 	Breadcrumbs
 ------------------------------------------------------------------------------*/
 .breadcrumb-bar a{
@@ -651,6 +654,9 @@ li.card-collapsed:last-child, li:last-child>.card-collapsed{
 }
 .alert-bar.notify .message{
 	color: #fff;
+}
+.section-loading-container{
+	background-color: rgba(255,255,255,.85);
 }
 
 /* 	Scrollbars
