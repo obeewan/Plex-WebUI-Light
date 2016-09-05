@@ -189,7 +189,7 @@ a:hover [class*="DisclosureArrow-default-"], button:hover [class*="DisclosureArr
 .poster-item .media-heading.secondary{
 	color: #757575;
 }
-.media-poster, .media-poster-fade, .user-poster,[class*="MetadataPosterCard-poster-"],[class*="MetadataPosterCell-continueWatchingTitleContainer-"]{
+.media-poster, .media-poster-fade, .user-poster,[class*="MetadataPosterCard-poster-"],[class*="MetadataPosterCell-continueWatchingTitleContainer-"], [class^="MetadataPosterCardFace-face-"]{
 	background: #f5f5f5;
 	box-shadow: none;
 }
